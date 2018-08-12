@@ -1,0 +1,1 @@
+*My Sublime Text Settings - Version 3 Stable.*

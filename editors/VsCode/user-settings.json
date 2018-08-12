@@ -1,0 +1,33 @@
+{
+    // Global Configs
+    "editor.fontFamily": "'Source Code Pro Medium', 'Source Code Pro'",
+    "editor.fontSize": 13.5,
+    "editor.minimap.enabled": false,
+    "editor.useTabStops": false,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.confirmDelete": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "seti",
+    "window.openFilesInNewWindow": "on",
+    "window.zoomLevel": 0.5,
+    // PHP, JS Configs
+    "php.suggest.basic": false,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.config": "$HOME/.vscode/.php_cs",
+    // ES/TS Configs
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue",
+        "vue-html"
+    ],
+    // Python Configs
+    "python.pythonPath": "$HOME/.pyenv/versions/3.6.0/bin/python",
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Path": "$HOME/.pyenv/versions/3.6.0/bin/python",
+    "python.linting.enabled": true,
+    "extensions.ignoreRecommendations": true,
+    // "workbench.colorTheme": "Dracula Soft",
+    "workbench.startupEditor": "newUntitledFile"
+}
