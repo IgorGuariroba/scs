@@ -9,10 +9,10 @@
     "explorer.openEditors.visible": 0,
     "workbench.activityBar.visible": false,
     "workbench.iconTheme": "seti",
+    "workbench.startupEditor": "newUntitledFile",
     "window.openFilesInNewWindow": "on",
-    "window.zoomLevel": 0.5,
+    "window.zoomLevel": 0.3,
     // PHP, JS Configs
-    "php.suggest.basic": false,
     "php-cs-fixer.onsave": true,
     "php-cs-fixer.config": "$HOME/.vscode/.php_cs",
     // ES/TS Configs
@@ -20,14 +20,15 @@
         "javascript",
         "javascriptreact",
         "vue",
-        "vue-html"
+        "vue-html",
+        "vuehtml"
     ],
     // Python Configs
-    "python.pythonPath": "$HOME/.pyenv/versions/3.6.0/bin/python",
-    "python.linting.pep8Enabled": true,
-    "python.linting.pep8Path": "$HOME/.pyenv/versions/3.6.0/bin/python",
-    "python.linting.enabled": true,
+    // "python.pythonPath": "$HOME/.pyenv/versions/3.6.0/bin/python",
+    // "python.linting.pep8Enabled": true,
+    // "python.linting.pep8Path": "$HOME/.pyenv/versions/3.6.0/bin/python",
+    // "python.linting.enabled": true,
+    // Others
     "extensions.ignoreRecommendations": true,
-    // "workbench.colorTheme": "Dracula Soft",
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.colorTheme": "United Ubuntu",
 }
