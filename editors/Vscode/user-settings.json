@@ -1,5 +1,7 @@
 {
     // Global Configs
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
     "editor.fontFamily": "'Source Code Pro Medium', 'Source Code Pro'",
     "editor.fontSize": 13.5,
     "editor.minimap.enabled": false,
@@ -7,14 +9,14 @@
     "explorer.confirmDragAndDrop": true,
     "explorer.confirmDelete": false,
     "explorer.openEditors.visible": 0,
-    "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "seti",
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
     "window.openFilesInNewWindow": "on",
     "window.zoomLevel": 0.3,
     // PHP, JS Configs
     "php-cs-fixer.onsave": true,
-    "php-cs-fixer.config": "$HOME/.vscode/.php_cs",
+    "php-cs-fixer.config": "/home/atmosmaciel/.vscode/.php_cs",
     // ES/TS Configs
     "eslint.validate": [
         "javascript",
@@ -24,11 +26,21 @@
         "vuehtml"
     ],
     // Python Configs
-    // "python.pythonPath": "$HOME/.pyenv/versions/3.6.0/bin/python",
-    // "python.linting.pep8Enabled": true,
-    // "python.linting.pep8Path": "$HOME/.pyenv/versions/3.6.0/bin/python",
-    // "python.linting.enabled": true,
+    "python.pythonPath": "$HOME/.pyenv/versions/3.6.0/bin/python",
+    "python.linting.pep8Enabled": true,
+    "python.linting.pep8Path": "$HOME/.pyenv/versions/3.6.0/bin/python",
+    "python.linting.enabled": true,
     // Others
+    // "gitlens.advanced.messages": {
+    //     "suppressShowKeyBindingsNotice": true
+    // },
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "United Ubuntu",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "breadcrumbs.enabled": true,
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1551881887176,
+    // "http.proxyAuthorization": "http://user:password@proxy.ceuma.edu.br:3128",
+    "window.titleBarStyle": "custom",
+    "editor.largeFileOptimizations": true,
+    "files.maxMemoryForLargeFilesMB": 10240
 }
