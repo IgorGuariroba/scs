@@ -7,3 +7,5 @@
     - zshrc file
     - vscode files
     - vim files
+5. Save SDK Android
+6. Save `php-cs-fixer.config": "/home/atmosmaciel/.vscode/.php_cs`
