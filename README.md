@@ -23,3 +23,9 @@ curl ipinfo.io/ip
 [How to easily remove characters using RegEx and PHP](string-and-regex.php)
 
 ### 4 - [Configure Git to use a proxy](https://gist.github.com/atmosmaciel/55adfe01e6f0f862112772fc39b73279)
+
+## Docker
+
+### Remove Images with `dangling=true`
+
+`docker rmi $(docker images -q --filter "dangling=true")`
