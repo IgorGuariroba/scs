@@ -6,3 +6,7 @@
 ### Access Euro Server
 
 `rdesktop-vrdp veneza.unieuro.int`
+
+### Get OS informations
+
+`lsb_release -a`
