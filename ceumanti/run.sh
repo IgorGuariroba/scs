@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Config Proxy
+# Ubuntu/Fedora Path: /etc/environment
+
 echo "Configuring proxy settings"
 http_proxy="http://username:password@proxy.domain.br:3128"
 HTTP_PROXY="http://username:password@proxy.domain.br:3128"
