@@ -29,3 +29,7 @@ curl ipinfo.io/ip
 ### Remove Images with `dangling=true`
 
 `docker rmi $(docker images -q --filter "dangling=true")`
+
+-------------------------------------------------------------------------
+
+**Returns the IP of the local machine**: `hostname -I | awk '{print $1}'`
