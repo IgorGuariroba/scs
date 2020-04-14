@@ -33,3 +33,21 @@ curl ipinfo.io/ip
 -------------------------------------------------------------------------
 
 **Returns the IP of the local machine**: `hostname -I | awk '{print $1}'`
+
+### Configure Desktop Entry
+
+```
+[Desktop Entry]
+Name=Slack
+StartupWMClass=Slack
+Comment=Slack Desktop
+GenericName=Slack Client for Linux
+Exec=/usr/bin/slack %U
+Icon=/usr/share/pixmaps/slack.png
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Network;InstantMessaging;
+MimeType=x-scheme-handler/slack;
+```
+
+-------------------------------------------------------------------------
