@@ -50,4 +50,19 @@ Categories=GNOME;GTK;Network;InstantMessaging;
 MimeType=x-scheme-handler/slack;
 ```
 
+**Postman Desktop Entry**
+
+```
+[Desktop Entry]
+Name=Postman
+StartupWMClass=Postman
+Comment=Postman Desktop
+GenericName=Postman Client for Linux
+Exec=/opt/Postman/Postman %U
+Icon=/opt/Postman/app/resources/app/assets/icon.png
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Network;
+```
+
 -------------------------------------------------------------------------
